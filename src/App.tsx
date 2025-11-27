@@ -16,7 +16,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/PROTOTYPE-KBA7673-QUEUE-MANAGEMENT-SYSTEM">
           <Routes>
             <Route path="/" element={<Auth />} />
             <Route path="/dashboard" element={<Index />} />
